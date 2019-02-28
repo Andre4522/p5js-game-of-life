@@ -1,9 +1,9 @@
 body {
   padding: 0;
   margin: 40px;
-  
+  background-color: #00FFFF;
 }
 
 h1 {
-  color: #8A2BE2;
+  color: rgb(163, 60, 247);
 }

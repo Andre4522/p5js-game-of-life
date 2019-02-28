@@ -1,10 +1,9 @@
 var grid;
 
-var grid;
 
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1200, 1200);
   grid = new Grid(10);
   // frame rate
    frameRate(20);
@@ -39,10 +38,10 @@ function draw() {
   var cos_a = cos(angle);
   var sin_a = sin(angle);
   background(50, 20, 70);
-  translate(200, 200); // takes back to origin 0,0 location
+  translate(600, 600); // takes back to origin 0,0 location
   rotate(angle);
   rectMode(CENTER);
-  translate(-200, -200);
+  translate(-600, -600);
   grid.draw();
 
    
